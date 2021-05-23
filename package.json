@@ -2,7 +2,7 @@
   "name": "budget-tracker",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://aoyuzhang.github.io/budget-tracker",
+  "homepage": "https://aoyuzhang.github.io/budget-tracker",
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.7",
@@ -10,7 +10,9 @@
     "bootstrap": "^5.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-icons": "^4.2.0",
     "react-scripts": "4.0.3",
+    "uuid": "^8.3.2",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
