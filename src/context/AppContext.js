@@ -2,6 +2,11 @@ import React, { useReducer } from 'react';
 
 const AppReducer = (state, action) => {
   switch(action.type) {
+    case 'ADD_EXPENSE':
+      return{
+        ...state,
+        expense: [...state.expenses, action.payload],
+      };
     default:
       return state;
   }
